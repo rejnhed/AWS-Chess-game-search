@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chessfenwebapp-dev-225919-authRole",
+      "UnauthRoleArn": "arn:aws:iam::794164258406:role/amplify-chessfenwebapp-dev-225919-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::794164258406:role/amplify-chessfenwebapp-dev-225919-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-chessfenwebapp-dev-225919-deployment",
+      "UnauthRoleName": "amplify-chessfenwebapp-dev-225919-unauthRole",
+      "StackName": "amplify-chessfenwebapp-dev-225919",
+      "StackId": "arn:aws:cloudformation:us-east-1:794164258406:stack/amplify-chessfenwebapp-dev-225919/a8b76750-de94-11eb-a60a-0af5a9785083",
+      "AmplifyAppId": "d3rv49qtnufjfp"
+    },
+    "categories": {
+      "auth": {
+        "chessfenwebappdb3de73a": {}
+      },
+      "function": {
+        "chessfenwebapp6ca832b2": {
+          "deploymentBucketName": "amplify-chessfenwebapp-dev-225919-deployment",
+          "s3Key": "amplify-builds/chessfenwebapp6ca832b2-4b754a356f57434d5748-build.zip"
+        }
+      }
+    }
+  }
+}

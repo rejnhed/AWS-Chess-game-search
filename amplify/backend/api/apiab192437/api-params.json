@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/fen/{fen}",
+      "lambdaFunction": "chessfenwebapp6ca832b2",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/fen/*"
+    }
+  ],
+  "resourceName": "apiab192437",
+  "apiName": "apiab192437",
+  "functionArns": [
+    {
+      "lambdaFunction": "chessfenwebapp6ca832b2"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-chessfenwebapp-dev-225919-authRole",
+    "unAuthRoleName": "amplify-chessfenwebapp-dev-225919-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "chessfenwebapp6ca832b2",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
